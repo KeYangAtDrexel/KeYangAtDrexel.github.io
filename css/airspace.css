@@ -186,10 +186,10 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 /*--
-	call-to-action Start
+	Talks Start
 --*/
 #call-to-action {
-  background: url("../img/call-to-action-bg.jpg") no-repeat;
+  background: url("../img/talks_bg.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 70px 0px;
@@ -206,7 +206,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: #1d192c;
+  background: #9c99a8;
   opacity: 0.8;
 }
 #call-to-action h2 {
@@ -228,10 +228,10 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 30px;
 }
 /*--
-	Feature Start
+	Publications Start
 --*/
 #feature {
-  background: url("../img/shutterstock.jpg");
+  background: url("../img/shutter_bg_lg.png");
   background-position: 50% 94px;
   width: 100%;
   display: block;
