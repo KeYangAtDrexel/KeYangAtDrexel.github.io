@@ -352,13 +352,13 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 0px 50px;
 }
 /*---------------------------------------------
-					Work Start
+					Tools Start
 -----------------------------------------------*/
 /*--
-	Slider-work Start
+	Slider-tools Start
 --*/
 #global-header {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/shutterstock_bg.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -398,7 +398,7 @@ font header .navbar-default .navbar-nav li a:hover {
   word-spacing: 3px;
 }
 /*--
-	portfolio-work Start
+	portfolio-tools Start
 --*/
 #portfolio-work {
   overflow: hidden;
@@ -534,7 +534,7 @@ font header .navbar-default .navbar-nav li a:hover {
   display: none;
 }
 /*--
-	wrapper-work Start
+	wrapper-tools Start
 --*/
 #wrapper-work {
   overflow: hidden;
@@ -597,7 +597,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 40px 0px;
 }
 /*---------------------------------------------
-					Work Close
+					Tools Close
 -----------------------------------------------*/
 /*=============================================*/
 /*---------------------------------------------
