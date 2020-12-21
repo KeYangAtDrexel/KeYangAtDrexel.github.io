@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title> | RankingFacts</title>
+  <title> | Diversity in rankings</title>
   <meta name="description" content="Personal website for Ke Yang based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -53,8 +53,6 @@
           
         
           
-            <a class="page-link" href="/projects/">projects</a>
-          
         
           
             <a class="page-link" href="/publications/">publications</a>
@@ -80,46 +78,26 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">RankingFacts</h1>
-    <h5 class="post-description">A nutritional label for rankings</h5>
+    <h1 class="post-title">Diversity in rankings</h1>
+    <h5 class="post-description"></h5>
   </header>
 
-  <article class="post-content RankingFacts clearfix">
-    <p>Algorithmic decisions often result in scoring and ranking individuals
-to determine credit worthiness, qualications for college
-admissions and employment, and compatibility as dating partners.
-While automatic and seemingly objective, ranking algorithms (or
-rankers) can discriminate against individuals and protected groups
-and exhibit low diversity. Furthermore, ranked results are often
-unstable—small changes in the input data or in the ranking methodology
-may lead to drastic changes in the output, making the result
-uninformative and easy to manipulate. Similar concerns apply in
-cases where items other than individuals are ranked, including
-colleges, academic departments, or products.</p>
+  <article class="post-content Diversity in rankings clearfix">
+    <p>Considering college admissions again, review committee wants to admit a diverse set of student
+candidates based on some characteristics. This goal can be formed as diversity constraints on
+the admitted students that specify the lower bound of the number of student candidates with some
+characteristics. For example, review committee wants to admit at least 5 female and 5 Black students this year.
+How to achieve diversity goal when the review committee has a budget of admitted students in a rolling admission?
+Our work in <a href="http://openproceedings.org/2018/conf/edbt/paper-98.pdf">Online Set Selection with fairness and diversity constraints</a>
+formalized a diverse K-<a href="https://en.wikipedia.org/wiki/Secretary_problem">Secretary problem</a> and provided algorithms
+to select the student candidates that have a higher quality and satisfy the diversity constraints at the same time.</p>
 
-<p>Ranking Facts, a Web-based application that generates a “nutritional label” for rankings.
-Ranking Facts is made up of a collection of visual widgets that implement
-our latest research results on fairness, stability, and transparency for
-rankings, and that communicate details of the ranking methodology
-or of the output to the end user.</p>
-
-<div class="img_row">
-    <img class="col two" src="/assets/img/RF_label.png" />
-</div>
-<div class="col two caption">
-    A screenshot of a generated nutritional label for CSRankings
-</div>
-<p><br /></p>
-<div class="img_row">
-    <img class="col two" src="/assets/img/RF_design.png" />
-</div>
-<div class="col two caption">
-    A screenshot of a parameter-design step for CSRankings
-</div>
-
-<p><br /><br /></p>
-
-<p><a href="http://demo.dataresponsibly.com/rankingfacts/">Play with Ranking Facts</a>!</p>
+<p>When the student candidates from some disadvantaged groups show lower tests scores than others (e.g. due to historical societal bias),
+we observed that the diversity constraints cause the student candidates are selected from those groups are
+less qualified than the ones selected from other groups in such rolling admission. To address this issue,
+our work in <a href="https://www.ijcai.org/Proceedings/2019/0836.pdf">Balanced Ranking with Diversity Constraints</a>
+formalized a notion of inner-group fairness that balances the impact of diversity constraints on all the groups
+instead of only negative impact on historically disadvantaged groups.</p>
 
   </article>
 

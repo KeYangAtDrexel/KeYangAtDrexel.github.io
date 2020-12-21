@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title> | FairDBMS</title>
+  <title> | 2_project</title>
   <meta name="description" content="Personal website for Ke Yang based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -53,8 +53,6 @@
           
         
           
-            <a class="page-link" href="/projects/">projects</a>
-          
         
           
             <a class="page-link" href="/publications/">publications</a>
@@ -80,45 +78,21 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">FairDBMS</h1>
-    <h5 class="post-description">Make DBMS fair</h5>
+    <h1 class="post-title">2_project</h1>
+    <h5 class="post-description"></h5>
   </header>
 
-  <article class="post-content FairDBMS clearfix">
-    <p>The term fairness refers to impartial and just treatment, lacking favoritism toward one side or another.
-Arguments about fairness have a long tradition in the legal arena and in philosophical discourse. We interpret fairness in an algorithmic
-decision-making process as impartial treatment of the individuals who are influenced by the algorithmic decisions. Partial treatment can
-come from biased input data that is used to generate decisions, or from the algorithms that are driving the decision-making process.
-It is usually difficult to ascertain the origin of partial treatment purely by observing algorithmic outcomes.
-A typical example of partial treatment is Google Ads for Women. While Google showed ads for “$200K+” executive jobs to men 1,852 times, the same ads were only displayed 318 times to women.</p>
-
-<div class="img_row">
-  <img class="col three" src="/assets/img/women_ads.png" />
-</div>
-
-<p>Two examples to illustrate possible causes of bias in the input data: under-representation and over-representation:</p>
-
-<p>A crime dataset that only includes data from the New York boroughs of Manhattan and Brooklyn is insufficiently representative
-to draw conclusions about the over-all crime rate in New York City. This is an example of geographic under-representation.</p>
-
-<p>An example of over-representing a demographic group in input data is the cause of famous unintentional mistake of Google’s photo app.
-Google’s photo app classified images of black people as gorillas when it applies automatic labels to pictures in digital photo albums.
-If the training dataset in the photo recognition apps is over-representing white people (i.e., under-representing black people), it shows
-bad performance when recognizing non-white people <a href="http://www.nytimes.com/2016/06/26/opinion/sunday/artificial-intelligences-white-guy-problem.html">whiteGuyProblem</a>, such as labeling black people as gorillas.</p>
-
-<div class="img_row">
-    <img class="col two" src="/assets/img/google_photos.png" title="Google Photos" />
-    <img class="col one" src="/assets/img/label_black.png" title="Labeled people as Gorillas" />
-</div>
-
-<p>Through the steps of a DBMS, lack of fairness can be mitigated through modifying the data itself, modifying the algorithms or modifying
-the outcomes of the decision-making process.</p>
-
-<p>We currently focus on encoding fairness in the ranked outcomes of decision-making processes. Comparing to literature on fairness in the output of a data
-mining or a machine learning task, we interpret fairness in the context of rankings besides inside a selection and classification problem.</p>
-
-<p>A short paper “Measuring Fairness in Ranked outputs” <a href="https://arxiv.org/pdf/1610.08559">(PDF)</a> captures our initial steps on interpreting fairness in rankings.</p>
-
+  <article class="post-content 2_project clearfix">
+    <p>More often, groups of interest are defined by multiple demographic characteristics (e.g. gender and race) such that each of them might
+force a form of structural oppression on some groups and the oppression are not independent with each other. This is termed as
+intersectionality in the literature, which includes numerous case studies, and theoretical and empirical work showing that people
+adversely impacted by more than one form of structural oppression face additional challenges in ways that are more than additive.
+For example, in the college admissions, a ranking of student candidates might fairly represent gender groups or racial groups, while
+still have inadequate representation of a group by the intersection of both gender and race (e.g. Black female students).
+How to achieve a ranking that is fair with respect to all of the demographic characteristics and their interactions instead of
+treating them separately? Our work in <a href="https://arxiv.org/abs/2006.08688">Causal intersectionality for fair ranking</a> formalized
+an explicit notion of intersectionality in rankings and provided a causal modeling framework to compute fair rankings to capture
+intersectional interactions between multiple demographic characteristics. Code available at <a href="https://github.com/DataResponsibly/CIFRank">GitHub</a>.</p>
 
   </article>
 
