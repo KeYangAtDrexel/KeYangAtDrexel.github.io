@@ -85,18 +85,10 @@
   </header>
 
   <article class="post-content projects clearfix">
-    <div class="projects">
     
-    
-      <blockquote>
-  <p>Fairness in rankings</p>
-</blockquote>
-
-<p>Ranking are ubiquitous in many context, such as recommendations, college admissions, and employment.
-They introduce competition for the top positions, and candidates in the ranking cannot be considered independently of each other.
-Considering college admissions, review committee wants to understand the representation of groups based on demographic, behavioral
-or other characteristics in the past admitted students, and then decide whether to develop policies to increase representation of
-particular groups in the future. How to quantify the representation of groups in a ranking?</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;Fairness in rankings&lt;/h3&gt;
+&lt;p&gt;Ranking are ubiquitous in many context, such as recommendations, college admissions, and employment. They introduce competition for the top positions, and candidates in the ranking cannot be considered independently of each other. Considering college admissions, review committee wants to understand the representation of groups based on demographic, behavioral or other characteristics in the past admitted students, and then decide whether to develop policies to increase representation of particular groups in the future. How to quantify the representation of groups in a ranking?&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>Our work in <a href="http://dl.acm.org/citation.cfm?doid=3085504.3085526">Measuring fairness in ranked outputs</a> formalized a notion of fairness
@@ -106,20 +98,9 @@ group. Our measures and generation procedure are then used by other researchers 
 Code available at <a href="https://github.com/DataResponsibly/FairRank">GitHub</a>.</li>
 </ul>
 
-
-    
-      <blockquote>
-  <p>Causal intersectionality in rankings</p>
-</blockquote>
-
-<p>More often, groups of interest are defined by multiple demographic characteristics (e.g. gender and race) such that each of them might
-force a form of structural oppression on some groups and the oppression are not independent with each other. This is termed as
-intersectionality in the literature, which includes numerous case studies, and theoretical and empirical work showing that people
-adversely impacted by more than one form of structural oppression face additional challenges in ways that are more than additive.
-For example, in the college admissions, a ranking of student candidates might fairly represent gender groups or racial groups, while
-still have inadequate representation of a group by the intersection of both gender and race (e.g. Black female students).
-How to achieve a ranking that is fair with respect to all of the demographic characteristics and their interactions instead of
-treating them separately?</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;Causal intersectionality in rankings&lt;/h3&gt;
+&lt;p&gt;More often, groups of interest are defined by multiple demographic characteristics (e.g. gender and race) such that each of them might force a form of structural oppression on some groups and the oppression are not independent with each other. This is termed as intersectionality in the literature, which includes numerous case studies, and theoretical and empirical work showing that people adversely impacted by more than one form of structural oppression face additional challenges in ways that are more than additive. For example, in the college admissions, a ranking of student candidates might fairly represent gender groups or racial groups, while still have inadequate representation of a group by the intersection of both gender and race (e.g. Black female students). How to achieve a ranking that is fair with respect to all of the demographic characteristics and their interactions instead of treating them separately?&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>Our work in <a href="https://arxiv.org/abs/2006.08688">Causal intersectionality for fair ranking</a> formalized
@@ -127,16 +108,9 @@ an explicit notion of intersectionality in rankings and provided a causal modeli
 intersectional interactions between multiple demographic characteristics. Code available at <a href="https://github.com/DataResponsibly/CIFRank">GitHub</a>.</li>
 </ul>
 
-    
-      <blockquote>
-  <p>Diversity in rankings</p>
-</blockquote>
-
-<p>Considering college admissions again, review committee wants to admit a diverse set of student
-candidates based on some characteristics. This goal can be formed as diversity constraints on
-the admitted students that specify the lower bound of the number of student candidates with some
-characteristics. For example, review committee wants to admit at least 5 female and 5 Black students this year.
-How to achieve diversity goal when the review committee has a budget of admitted students in a rolling admission?</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;Diversity in rankings&lt;/h3&gt;
+&lt;p&gt;Considering college admissions again, review committee wants to admit a diverse set of student candidates based on some characteristics. This goal can be formed as diversity constraints on the admitted students that specify the lower bound of the number of student candidates with some characteristics. For example, review committee wants to admit at least 5 female and 5 Black students this year. How to achieve diversity goal when the review committee has a budget of admitted students in a rolling admission?&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>Our work in <a href="http://openproceedings.org/2018/conf/edbt/paper-98.pdf">Online Set Selection with fairness and diversity constraints</a>
@@ -154,18 +128,9 @@ formalized a notion of inner-group fairness that balances the impact of diversit
 instead of only negative impact on historically disadvantaged groups.</li>
 </ul>
 
-    
-      <blockquote>
-  <p>Interpretability in rankings</p>
-</blockquote>
-
-<p>The data-intensive systems are typically complex: developed under certain context and
-hidden assumptions, and carried out in multiple steps. Users need to be able to interpret
-the results with regards to their own tasks.
-To help users to understand fairness in rankings, I built <a href="http://demo.dataresponsibly.com/rankingfacts">Ranking Facts</a>,
-a web-based tool that generates a ‘‘nutritional label’’ for rankings. It implements our research results on fairness,
-stability, and transparency for rankings. A label is presented to users as a collection of visual widgets, drawing
-an analogy to nutrition facts in the food industry.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;Interpretability in rankings&lt;/h3&gt;
+&lt;p&gt;The data-intensive systems are typically complex: developed under certain context and hidden assumptions, and carried out in multiple steps. Users need to be able to interpret the results with regards to their own tasks. To help users to understand fairness in rankings, I built &lt;a href="http://demo.dataresponsibly.com/rankingfacts"&gt;Ranking Facts&lt;/a&gt;, a web-based tool that generates a ‘‘nutritional label’’ for rankings. It implements our research results on fairness, stability, and transparency for rankings. A label is presented to users as a collection of visual widgets, drawing an analogy to nutrition facts in the food industry.&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>Our work in <a href="https://dl.acm.org/citation.cfm?doid=3183713.3193568">A Nutritional Label for Rankings</a>
@@ -174,38 +139,24 @@ semi-automatically as part of the complex process that gave rise to the data or 
 Code available at <a href="github.com/DataResponsibly/RankingFacts">GitHub</a>.</li>
 </ul>
 
-    
-      <blockquote>
-  <p>FairDAGs</p>
-</blockquote>
-
-<p><a href="https://dataresponsibly.hpc.nyu.edu/fairdags">fairDAGs</a>, a web-based tool
-that extracts directed acyclic graph (DAG) representation of the pipelines.
-It tracks the changes of the distributions of targets and groups (based on some user-specified characteristics)
-due to each operation in the pipelines.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;FairDAGs&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://dataresponsibly.hpc.nyu.edu/fairdags"&gt;fairDAGs&lt;/a&gt;, a web-based tool that extracts directed acyclic graph (DAG) representation of the pipelines. It tracks the changes of the distributions of targets and groups (based on some user-specified characteristics) due to each operation in the pipelines.&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>As a starting point, our work <a href="https://hilda.io/2020/proceedings/HILDA2020_paper9.pdf">Fairness-Aware Instrumentation of Preprocessing Pipelines for Machine Learning</a>
 provided an intuitive way to interpret fairness in data science pipelines. Code available at <a href="github.com/DataResponsibly/fairDAGs">GitHub</a>.</li>
 </ul>
 
-    
-      <blockquote>
-  <p>FairDeploy</p>
-</blockquote>
-
-<p>With machine learning (ML) algorithms extensively applied in different applications, the need of
-incorporating responsibility into such ML-driven data science pipelines has never been more urgent. However,
-limited works have been done to provide system-level supports for users, especially those with limited ML background,
-to develop, evaluate, and manage their pipelines.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;h3&gt;FairDeploy&lt;/h3&gt;
+&lt;p&gt;With machine learning (ML) algorithms extensively applied in different applications, the need of incorporating responsibility into such ML-driven data science pipelines has never been more urgent. However, limited works have been done to provide system-level supports for users, especially those with limited ML background, to develop, evaluate, and manage their pipelines.&lt;/p&gt;
+</code></pre></div></div>
 
 <ul>
   <li>I’m currently building a benchmark ‘‘fairDeploy’’ that
 provides systematically evaluation of technical bias in the deployment of ML algorithms.</li>
 </ul>
 
-    
-</div>
 
   </article>
 
